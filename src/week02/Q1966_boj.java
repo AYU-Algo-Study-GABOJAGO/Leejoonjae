@@ -21,6 +21,6 @@ public class Q1966_boj {
 
     }
 
-//
+///
   }
 }
