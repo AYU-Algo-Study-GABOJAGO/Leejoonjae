@@ -19,9 +19,6 @@ public class Q1966_boj {
       int N = Integer.parseInt(br.readLine());    //문서의 갯수
       String M = br.readLine();   //중요도
 
-
-
-
     }
 
 
