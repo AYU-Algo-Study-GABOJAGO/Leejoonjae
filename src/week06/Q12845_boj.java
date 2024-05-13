@@ -25,6 +25,6 @@ public class Q12845_boj{
 
     }
     System.out.println(sum);
-
+//
     }
   }
