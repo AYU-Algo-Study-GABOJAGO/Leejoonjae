@@ -19,7 +19,7 @@ public class Q12845_boj{
     Arrays.sort(arr,Comparator.reverseOrder());
 
     int sum = 0;
-    int result = arr[0]; // 배열의 가장 큰 값
+    int result = arr[0]; // 배열의 가장 큰 값 저장
     for(int j = 1; j < n; j++){
       sum += result + arr[j];
 
