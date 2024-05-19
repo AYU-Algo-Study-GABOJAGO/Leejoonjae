@@ -6,9 +6,12 @@ public class Q9625_boj {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+
     int K = sc.nextInt();
+
     int[] a = new int[45];	// A의 개수
     int[] b = new int[45];	// B의 개수
+
     a[0] = 0;
     a[1] = 1;
     b[0] = 1;
