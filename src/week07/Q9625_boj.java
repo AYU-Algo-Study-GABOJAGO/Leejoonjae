@@ -21,8 +21,6 @@ public class Q9625_boj {
       a[i] = a[i-2] + a[i-1];
       b[i] = b[i-2] + b[i-1];
     }
-
-    System.out.println(a[K-1] + " " + b[K-1]);
+    System.out.println(a[K-1] + " " + b[K-1]); // K-1번 했을 때 인덱스 값으로 구함
   }
-
 }
