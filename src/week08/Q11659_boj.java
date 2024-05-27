@@ -12,7 +12,7 @@ public class Q11659_boj {
     int[] arr = new int[n + 1];
     arr[0] = 0;
     for (int i = 0; i < n; i++) {
-      arr[i + 1] = arr[i] + sc.nextInt();
+      arr[i + 1] = arr[i] + sc.nextInt(); // 부분합
     }
 
     for (int i = 0; i < m; i++) {
