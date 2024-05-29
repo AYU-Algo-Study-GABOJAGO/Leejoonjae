@@ -12,20 +12,20 @@ public class Q3020_boj {
     int obsCnt = 0;
 
     int up_cnt[] = new int[H+1];
-    int un_cnt[] = new int[H+1];
+    int down_cnt[] = new int[H+1];
 
     for(int i=0; i<N; i++){
       if(i%2==1) up_cnt[sc.nextInt()]++;
-      else un_cnt[sc.nextInt()]++;
+      else down_cnt[sc.nextInt()]++;
     }
 
     for(int i=H-1; i>0; i--){
       up_cnt[i] += up_cnt[i+1];
-      un_cnt[i] += un_cnt[i+1];
+      down_cnt[i] += down_cnt[i+1];
     }
 
     for(int i=1; i<H+1; i++){
-      int brake = up_cnt[i] + un_cnt[H-i+1];
+      int brake = up_cnt[i] + down_cnt[H-i+1];
       if(brake < obs){
         obs = brake;
         obsCnt = 1;
