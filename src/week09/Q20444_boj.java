@@ -5,10 +5,10 @@ import java.util.*;
 public class Q20444_boj {
 
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
-    long n = scan.nextInt();  // 가위질 횟수
-    long k = scan.nextLong(); // 원하는 조각 수
+    long n = sc.nextInt();  // 가위질 횟수
+    long k = sc.nextLong(); // 원하는 조각 수
 
     long lo = 0;
     long hi = n / 2; // 종이를 반으로 자르는 게 최대
