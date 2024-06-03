@@ -24,7 +24,7 @@ public class Q20444_boj {
         hi = row - 1;
       } else if (total < k){
         lo = row + 1;
-      }4
+      }
     }
     System.out.println("NO");
   }
