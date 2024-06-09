@@ -44,5 +44,5 @@ public class Q11728_boj {
       sb.append(b[j++]+" ");
     }
     System.out.println(sb.toString());
-  }
+  }//
 }
